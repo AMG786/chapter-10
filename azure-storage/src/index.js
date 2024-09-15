@@ -4,6 +4,7 @@ const { BlobServiceClient, StorageSharedKeyCredential } = require("@azure/storag
 //
 // Throws an error if the any required environment variables are missing.
 
+
 //
 
 if (!process.env.PORT) {

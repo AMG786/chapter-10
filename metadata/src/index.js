@@ -5,6 +5,8 @@ const amqp = require('amqplib');
 //
 // Starts the microservice.
 //
+
+
 async function startMicroservice(dbHost, dbName, rabbitHost, port) {
     const client = await mongodb.MongoClient.connect(dbHost, { useUnifiedTopology: true });  // Connects to the database.
     const db = client.db(dbName);
@@ -18,7 +20,7 @@ async function startMicroservice(dbHost, dbName, rabbitHost, port) {
 
 
 
-    
+
     //
     // HTTP GET route to retrieve list of videos from the database.
     //
