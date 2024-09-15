@@ -13,6 +13,9 @@ if (!process.env.DBHOST) {
 
 
 
+
+
+
 if (!process.env.DBNAME) {
     throw new Error("Please specify the name of the database using environment variable DBNAME");
 }
