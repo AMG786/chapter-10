@@ -10,6 +10,9 @@ if (!process.env.DBHOST) {
     throw new Error("Please specify the database host using environment variable DBHOST.");
 }
 
+
+
+
 if (!process.env.DBNAME) {
     throw new Error("Please specify the name of the database using environment variable DBNAME");
 }

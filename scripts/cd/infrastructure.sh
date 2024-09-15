@@ -6,5 +6,6 @@
 #   ./scripts/cd/infrastructure.sh
 #
 
-kubectl apply -f rabbit.yaml
-kubectl apply -f mongodb.yaml
+
+kubectl apply -f ./scripts/cd/rabbit.yaml
+kubectl apply -f ./scripts/cd/mongodb.yaml

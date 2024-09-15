@@ -17,6 +17,8 @@ async function startMicroservice(dbHost, dbName, rabbitHost, port) {
     app.use(express.json()); // Enable JSON body for HTTP requests.
 
 
+
+    
     //
     // HTTP GET route to retrieve list of videos from the database.
     //
