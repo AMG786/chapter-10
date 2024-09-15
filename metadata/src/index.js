@@ -20,6 +20,8 @@ async function startMicroservice(dbHost, dbName, rabbitHost, port) {
 
 
 
+    
+
 
     //
     // HTTP GET route to retrieve list of videos from the database.
